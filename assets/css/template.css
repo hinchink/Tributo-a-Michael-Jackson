@@ -30,3 +30,9 @@ header {
     background-color: lightseagreen;
     margin-top: 10px;
 }
+
+img {
+    display: flex;
+    justify-content: center;
+    margin-left: 43%;
+}
