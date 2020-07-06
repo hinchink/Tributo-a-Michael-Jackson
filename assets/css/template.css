@@ -22,10 +22,13 @@ header {
 .widget_title {
     margin-top: 30px;
     margin-bottom: 20px;
-    margin-left: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .widget_title_text {
+    margin-left: auto;
+    margin-right: auto;
     color: #000;
     font-size: 21px;
     font-weight: bold;
@@ -41,9 +44,23 @@ header {
 img {
     display: flex;
     justify-content: center;
-    margin-left: 43%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.widget_title_bar {
+    width: 100%;
+    height: 2px;
+    background-color: lightseagreen;
+    margin-top: 10px;
 }
 
 h1 {
     font-size: 13px;
+    display: flex;
+}
+
+.textoh1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
