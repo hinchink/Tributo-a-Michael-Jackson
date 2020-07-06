@@ -13,9 +13,16 @@ header {
     height: 120px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
 .widget_title {
     margin-top: 30px;
     margin-bottom: 20px;
+    margin-left: 40%;
 }
 
 .widget_title_text {
@@ -35,4 +42,8 @@ img {
     display: flex;
     justify-content: center;
     margin-left: 43%;
+}
+
+h1 {
+    font-size: 13px;
 }
